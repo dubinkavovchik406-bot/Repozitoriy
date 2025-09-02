@@ -1,3 +1,4 @@
 .idea/
 testik
 __pycache__/
+venv/
