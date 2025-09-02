@@ -1,4 +1,5 @@
 .idea/
-testik
 __pycache__/
+db/__pycache__/
+testik
 venv/
