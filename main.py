@@ -9,3 +9,7 @@ def get_user(id: int):
     if user_db is None:
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND,detail="Пользователь не найден")
     return user_db
+
+@app.get("/users")
+def get_users():
+    return crud.get_users()
